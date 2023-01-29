@@ -1,0 +1,333 @@
+---
+layout: default
+title: Home
+---
+<!-- ========== BIO ========== -->
+<div class="docs-section" id="bio">
+  <h4>Bio</h4>
+  <p>
+    I am a PhD Candidate at <a href=https://www.cics.umass.edu/ target="_blank" style="color:rgb(0, 0, 0)">CICS, University of Massachusetts Amherst</a>.
+    My research examines learning problems with an emphasis on their foundations as well as applications. In particular, my research interests include Gaussian processes and NLP, with a special focus on, fast inference for Gaussian processes, and representation learning for NLP and information extraction.
+  <p>
+
+  <p>
+  Currently, I'm advised by <a href=https://people.cs.umass.edu/~sheldon/ target="_blank" style="color:rgb(0, 0, 0)">Prof. Daniel Sheldon</a> and actively collaborating with <a href=https://people.cs.umass.edu/~cmusco/ target="_blank" style="color:rgb(0, 0, 0)">Prof. Cameron Musco</a>. Previously, I worked with <a href=https://people.cs.umass.edu/~mccallum/ target="_blank" style="color:rgb(0, 0, 0)">Prof. Andrew McCAllum</a> and
+  I was a research engineer and got my bachelors from  <a href=https://www.iitmandi.ac.in/ target="_blank" style="color:rgb(0, 0, 0)">Indian Institute of Technology, Mandi</a>.
+ </p>
+
+</div>
+
+<!--&lt;!&ndash; ========== PROJECTS ========== &ndash;&gt;-->
+<!--  <h4>Research Areas</h4>-->
+
+<!--<div class="docs-section" id="projects">-->
+<!--&lt;!&ndash;-->
+<!--  <ul class="tab-nav">-->
+<!--    <li><div class="button active" data-ref="#proj-cur">Current Projects</div></li>-->
+<!--    <li><div class="button" data-ref="#proj-past">Past</div></li>    -->
+<!--  </ul>-->
+
+<!--  <div class="tab-content">-->
+<!--    <div class="tab-pane active" id="proj-cur">-->
+<!--&#45;&#45;!>-->
+<!--      {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}-->
+<!--      {% for project in selected_projects %}-->
+<!--        {% assign index_modulo = forloop.index0 | modulo:3 %}-->
+<!--        {% if index_modulo == 0 %}-->
+<!--          <div class="row">-->
+<!--        {% endif %}-->
+
+<!--          <div class="four columns">-->
+<!--            <div class="project-container">-->
+
+<!--                <div class="project-image-container">-->
+<!--                  <a href="{{ project.url }}">-->
+<!--                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />-->
+<!--                  </a>-->
+<!--                </div>-->
+
+<!--                <div class="project-caption">-->
+<!--                  <center>-->
+<!--                  <b>{{ project.title }}</b> <br/>-->
+<!--                  </center>-->
+<!--                  {{ project.subtitle }}-->
+<!--                </div>-->
+
+<!--            </div>-->
+<!--          </div>-->
+
+<!--        {% if index_modulo == 2 %}-->
+<!--          </div>-->
+<!--        {% endif %}-->
+<!--      {% endfor %}-->
+<!--&lt;!&ndash;-      </div>-->
+<!--   </div>-->
+<!-- -&#45;&#45;!>-->
+
+<!--</div>-->
+
+
+
+<!-- ========== PUBLICATIONS ========== -->
+<div class="docs-section" id="publications">
+  <h4>Publications</h4>
+
+<!--  <p>Most recent publications on <a href="https://scholar.google.com/citations?user=tPoZrDMAAAAJ" target="_blank">Google Scholar</a>.</p>-->
+<!--  -->
+
+  <ul class="tab-nav">
+    <li><div class="button active" data-ref="#papers-sel">Selected & Recent</div></li>
+    <li><div class="button" data-ref="#papers-gps">Gaussian processes</div></li>
+    <li><div class="button" data-ref="#papers-nlp">DL & NLP</div></li>
+    <!-- <li><div class="button" data-ref="#papers-others">Misc</div></li> -->
+    <li><div class="button" data-ref="#papers-all">All</div></li>
+  </ul>
+
+  <div class="tab-content">
+
+    <div class="tab-pane active" id="papers-sel">
+      {% assign papers = site.data.publications.papers | where: "selected", "y" %}
+      {% for paper in papers %}
+        <div class="paper" style="color:rgb(0, 110, 0)">
+          <p class="title"> <span>&plus;</span>
+            <b>{{ paper.title }}</b>
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">PDF</a>
+            {% endif %}
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+          </p>
+          <p style="color:black">{{ paper.authors }}</p>
+          <p style="color:black"><i>{{ paper.venue }}</i></p>
+           <div class="paper-buttons">
+
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <!-- All PAPERS -->
+    <div class="tab-pane" id="papers-all">
+      {% assign papers = site.data.publications.papers %}
+      {% for paper in papers %}
+        <div class="paper" style="color:rgb(0, 110, 0)">
+          <p class="title"><span>&plus;</span>
+            <b>{{paper.title }}</b>
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">PDF</a>
+            {% endif %}
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+          </p>
+          <p style="color:black">{{ paper.authors }}</p>
+          <p style="color:black"><i>{{ paper.venue }}</i></p>
+           <div class="paper-buttons">
+
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+
+    <!-- ML PAPERS -->
+    <div class="tab-pane" id="papers-gps">
+      {% assign ml_papers = site.data.publications.papers | where: "gps", "y" %}
+      {% for paper in ml_papers %}
+        <div class="paper" style="color:rgb(0, 110, 0)">
+          <p class="title"><span>&plus;</span>
+            <b>{{ paper.title }}</b>
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">PDF</a>
+            {% endif %}
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+          </p>
+          <p style="color:black">{{ paper.authors }}</p>
+          <p style="color:black"><i>{{ paper.venue }}</i></p>
+           <div class="paper-buttons">
+
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <!-- NLP PAPERS -->
+    <div class="tab-pane" id="papers-nlp">
+      {% assign nlp_papers = site.data.publications.papers | where: "dlnlp", "y" %}
+      {% for paper in nlp_papers %}
+        <div class="paper" style="color:rgb(0, 110, 0)">
+          <p class="title"><strong>&plus;</strong>
+           <b>{{ paper.title }} </b>
+          {% if paper.paper_pdf %}
+              <a class="button" style="" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">PDF</a>
+            {% endif %}
+            {% if paper.slides %}
+              <a class="button" style="" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+            {% if paper.poster %}
+              <a class="button" style="" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+            {% if paper.video %}
+              <a class="button" style="" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+            {% if paper.code %}
+              <a class="button" style="" href="{{ paper.code }}" target="_blank">Code</a>
+              {% endif %}
+          </p>
+          <p style="color:black">{{ paper.authors }}</p>
+          <p style="color:black"><i>{{ paper.venue }}</i></p>
+        </div>
+      {% endfor %}
+    </div>
+
+       <!-- Misc PAPERS -->
+    <div class="tab-pane" id="papers-others">
+      {% assign nlp_papers = site.data.publications.papers | where: "others", "y" %}
+      {% for paper in nlp_papers %}
+        <div class="paper" style="color:rgb(0, 110, 0)">
+          <p class="title"><span>&plus;</span>
+            <b>{{ paper.title }}</b>
+          {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">PDF</a>
+            {% endif %}
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+              {% endif %}
+          </p>
+          <p style="color:black">{{ paper.authors }}</p>
+          <p style="color:black"><i>{{ paper.venue }}</i></p>
+        </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</div>
+
+
+<!--<div class="docs-section" id="talks">-->
+<!--  <h4>Talks and slides</h4>-->
+<!--  {% assign current_talks = site.data.talks.talks | where: "category", "current" %}-->
+<!--  {% for talk in current_talks %}-->
+<!--  <div class="talk">-->
+<!--    <p class="title"><b>{{ talk.name }}</b> ({{ talk.time }}): <a href={{talk.link}} target="_blank">{{ talk.title }}</a></p>-->
+<!--  </div>-->
+<!--  {% endfor %}-->
+<!--</div>-->
+
+
+<!---
+<div class="docs-section" id="people">
+  <h4>Advisees</h4>
+
+
+  <ul class="tab-nav">
+    <li><div class="button active" data-ref="#current">Current</div></li>
+    <li><div class="button" data-ref="#former">Former</div></li>
+  </ul>
+
+  <div class="tab-content">
+
+    <div class="tab-pane active" id="current">
+      {% assign current_people = site.data.students.students | where: "category", "current" %}
+      {% for person in current_people %}
+        <div class="paper">
+          <p class="title"><b>{{ person.name }}</b> ({{ person.time }})</p>
+          <p><i>{{ person.place }}</i></p>
+          {% if person.current %}
+          <p> {{ person.current }} </p>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="tab-pane" id="former">
+      {% assign former_people = site.data.students.students | where: "category", "former" %}
+      {% for person in former_people %}
+        <div class="paper">
+          <p class="title"><b>{{ person.name }}</b> ({{ person.time }})</p>
+          <p><i>{{ person.place }}</i></p>
+          {% if person.current %}
+          <p> {{ person.current }} </p>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+    
+  </div>
+</div>
+--->
+
+
+
+
+<!-- ========== RESUME ========== -->
+<div class="docs-section" id="resume">
+  <h4>Resume</h4>
+
+  <!-- The Timeline -->
+  <ul class="timeline">
+    {% for exp in site.data.experience.experiences %}
+    <li>
+      {% if exp.category == "work" %}
+      <div class="direction-l">
+      {% else %}
+      <div class="direction-r">
+      {% endif %}
+        <div class="flag-wrapper">
+          <span class="flag">{{ exp.place }}</span>
+          <span class="time-wrapper"><span class="time">{{ exp.time }}</span></span>
+        </div>
+        <div class="desc"><b>{{ exp.title }}</b> <br/> {{ exp.subtitle }}</div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+
+<!--  <div class="docs-section" id="ack">-->
+<!--&lt;!&ndash;  <h2>Acknowledgement</h2>&ndash;&gt;-->
+<!--  <p>-->
+<!--    Acknowledgement: This website uses the website design and template by <a href="https://github.com/msaveski/www_personal">Martin Saveski</a>-->
+<!--  </p>-->
+
+</div>

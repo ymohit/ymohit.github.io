@@ -1,0 +1,43 @@
+experiences:
+- place: "University of Massachusetts Amherst"
+  time: "2017 - now"
+  title: "Research Assistant"
+  subtitle: ""
+  category: "school"
+
+- place: "Etsy Inc"
+  time: "June 2022 - August 2022"
+  title: "Research Intern"
+  subtitle: "Advised by Raphael Louca"
+  category: "work"
+
+
+- place: "Allen Institute for AI (AI2)"
+  time: "June 2022 - August 2020"
+  title: "Research Intern"
+  subtitle: "Advised by Iz Beltagy"
+  category: "work"
+
+- place: "Amazon Alexa AI"
+  time: "May 2018 - August 2018"
+  title: "Applied Scientist Intern"
+  subtitle: "Advised by Michael Kayser"
+  category: "work"
+
+- place: "TCS Research Labs"
+  time: "2014 - 2017"
+  title: "Research Engineer"
+  subtitle: "Advised by Lovekesh Vig and Gautam Shroff"
+  category: "work"
+
+- place: "Indian Statistical Institute, Kolkata"
+  time: "Summer 2013"
+  title: "Research Intern"
+  subtitle: "Advised by Sankar K Pal"
+  category: "work"
+
+- place: "Indian Institute of Technology, Mandi"
+  time: "2010 - 2014"
+  title: "Bachelor's in Electrical Engineering"
+  subtitle: "Advised by Prof. Anil Sao and Prof. Arnav Bhavsar"
+  category: "school"

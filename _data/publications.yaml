@@ -1,0 +1,75 @@
+papers:
+  - title: "Kernel Interpolation with Sparse Grids"
+    authors: "<u>Mohit Yadav</u>, Daniel Sheldon, Cameron Musco"
+    venue: "<b> Conference on Neural Information Processing Systems (NeurIPS) 2022, (acceptance rate 25.6%)</b>"
+    paper_pdf: https://ymohit.github.io/
+    selected: y
+    gps: y
+
+  - title: "Fast Kernel Interpolation for Gaussian Processes"
+    authors: "<u>Mohit Yadav</u>, Daniel Sheldon, Cameron Musco"
+    venue: "International Conference on Artificial Intelligence and Statistics (AISTATS) 2021, (<b>Oral, top~3%, 48/1527</b>)"
+    paper_pdf: https://scholar.google.com/citations?user=tPoZrDMAAAAJ
+    selected: y
+    gps: y
+
+  - title: "Unsupervised Latent Tree Induction with Deep Inside-Outside Recursive Autoencoders"
+    authors: "Andrew Drozdov<b>*</b>, Pat Verga<b>*</b>, <u>Mohit Yadav</u><b>*</b>, Mohit Iyyer, Andrew McCallum"
+    venue: "Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL) 2019, (<b>Oral, top~9%, 91/1067</b>)"
+    paper_pdf: https://arxiv.org/pdf/1904.02142
+    selected: y
+    dlnlp: y
+
+  - title: "Information Bottleneck Inspired Method For Chat Text Segmentation"
+    authors: "S Vishal<b>*</b>, <u>Mohit Yadav</u><b>*</b>, Lovekesh Vig, Gautam Shroff"
+    venue: "International Joint Conference on Natural Language Processing (IJCNLP) 2017"
+    paper_pdf: https://www.aclweb.org/anthology/I17-1020.pdf
+    dlnlp: y
+
+  - title: "Siamese Networks for Chromosome Classification"
+    authors: "Swati, Gaurav Gupta, <u>Mohit Yadav</u>, Monika Sharma, Lovekesh Vig,"
+    venue: "Proceedings of the IEEE International Conference on Computer Vision (ICCV) workshop paper, 2017"
+    paper_pdf: https://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w1/Jindal_Siamese_Networks_for_ICCV_2017_paper.pdf
+    dlnlp: y
+
+  - title: "Deep Tri-phone Embedding improves Phoneme Recognition"
+    authors: "<u>Mohit Yadav</u>, Vivek Tyagi"
+    venue: ""
+    paper_pdf: https://arxiv.org/pdf/1710.07868.pdf
+    dlnlp: y
+
+  - title: "Learning and Knowledge Transfer with Memory Networks for Machine Comprehension"
+    authors: "<u>Mohit Yadav</u>, Lovekesh Vig, Gautam Shroff"
+    venue: "Annual Conference of the European Chapter of the Association for Computational Linguistics (EACL) 2017"
+    paper_pdf: https://www.aclweb.org/anthology/E17-1080.pdf
+    dlnlp: y
+
+  - title: "Regularization and Learning an Ensemble of RNNs by Decorrelating Representations"
+    authors: "<u>Mohit Yadav</u>, Sakshi Agarwal"
+    venue: "Workshop on Crowdsourcing, Deep Learning, and Artificial Intelligence Agents at AAAI Conference on Artificial Intelligence, 2017"
+    paper_pdf: https://aaai.org/ocs/index.php/WS/AAAIW17/paper/view/15145/14699
+    dlnlp: y
+
+  - title: "Group delay functions for Speaker Diarization"
+    authors: "<u>Mohit Yadav</u>, Anil K Sao,  A D Dileep, Padmanabhan Rajan"
+    venue: "National conference on communications (NCC), 2016"
+    paper_pdf: https://ieeexplore.ieee.org/abstract/document/7561127
+    others: y
+
+  - title: "Searching for Logical Patterns in Multi-Sensor Data from the Industrial Internet"
+    authors: "<u>Mohit Yadav</u>, Ehtesham Hassan, Gautam Shroff, Puneet Agarwal, Ashwin Srinivasan"
+    venue: "International Conference on Pattern Recognition and Machine Intelligence (PReMI), 2015"
+    paper_pdf: https://link.springer.com/chapter/10.1007/978-3-319-30315-4_18
+    others: y
+
+  - title: "ODE - Augmented Training ImprovesAnomaly Detection in Sensor Data from Machines"
+    authors: "<u>Mohit Yadav</u>, Pankaj Malhotra, Lovekesh Vig, K Sriram, Gautam Shroff"
+    venue: "Advances in neural information processing systems (NeurIPS) 2015 - Time Series Workshop"
+    paper_pdf: https://arxiv.org/pdf/1605.01534.pdf
+    dlnlp: y
+
+  - title: "Better guiding the guided range image filter for range-image super-resolution"
+    authors: "<u>Mohit Yadav</u>, Ram Garg, Arnav Bhavsar"
+    venue: "Indian Conference on Computer Vision Graphics and Image Processing (ICVGIP), 2014"
+    paper_pdf: https://dl.acm.org/doi/pdf/10.1145/2683483.2683545?casa_token=hM4MUlvdFtsAAAAA:5DX4ZZli8bf0W6FB49jXz5Vsr446Y5nHZkqt0HLXHzMMS05fcRR_Z8ZldcgbNEuuGvJ7o96o__H5
+    others: y
