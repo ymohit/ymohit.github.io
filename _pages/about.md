@@ -13,7 +13,7 @@ subtitle: >
 
 profile:
   align: right
-  image: profile.png
+  image: profile.jpeg
   image_circular: false
   more_info: >
     <p>Sunnyvale, California</p>
