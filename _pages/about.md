@@ -4,16 +4,16 @@ title: about
 permalink: /
 subtitle: >
   <span style="font-size:1.05em;">
-  <strong>Lead AI Scientist</strong> @ <a href="https://www.optum.com/"  style="color:#1976D2;" target="_blank">Optum AI</a> • Bridging AI research ⇄ impact in <span style="color:#1976D2;">healthcare</span> &amp; <span style="color:#1976D2;">drug discovery</span>.
+  <strong>Lead AI Scientist</strong> @ <a href="https://www.optum.com/"  style="color:#1976D2;" target="_blank">Optum AI</a> • Bridging AI research ⇄ impact in <span style="color:#1976D2;">healthcare</span>.
   </span>
   <br/>
   <span style="font-size:0.95em; margin-left:1rem; display:inline-block;">
-  Past affiliations: PhD in Machine Learning — <a href="https://www.umass.edu" style="color:#1976D2;" target="_blank">UMass Amherst</a>, <a href="https://www.pythialabs.com" style="color:#1976D2;" target="_blank">Pythia Labs</a>, <a href="https://allenai.org" style="color:#1976D2;" target="_blank">Ai2</a>, <a href="https://www.amazon.com" style="color:#1976D2;" target="_blank">Amazon</a>, and <a href="https://www.iitmandi.ac.in" style="color:#1976D2;" target="_blank">IIT Mandi</a>.
+  Past affiliations: <a href="https://www.umass.edu" style="color:#1976D2;" target="_blank">UMass Amherst</a>, <a href="https://www.pythialabs.com" style="color:#1976D2;" target="_blank">Pythia Labs</a>, <a href="https://allenai.org" style="color:#1976D2;" target="_blank">Ai2</a>, <a href="https://www.amazon.com" style="color:#1976D2;" target="_blank">Amazon</a>, and <a href="https://www.iitmandi.ac.in" style="color:#1976D2;" target="_blank">IIT Mandi</a>.
   </span>
 
 profile:
   align: right
-  image: profile.jpeg
+  image: profile.png
   image_circular: false
   more_info: >
     <p>Sunnyvale, California</p>
