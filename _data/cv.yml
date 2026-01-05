@@ -1,0 +1,107 @@
+- title: Summary
+  type: map
+  contents:
+    - name: Full Name
+      value: Mohit Yadav
+    - name: Email
+      value: connect2mohityadav@gmail.com
+    - name: LinkedIn
+      value: https://www.linkedin.com/in/ymohit/
+    - name: About
+      value: Ph.D. in Computer Science. Innovator in machine learning and Generative AI with expertise in deep learning, NLP, and LLMs. 12+ years of research and industry experience. 15+ publications in top conferences (including NeurIPS), 360+ citations, 3 patents, and production-ready ML models.
+
+- title: Education
+  type: time_table
+  contents:
+    - title: MS and Ph.D. in Computer Science
+      institution: University of Massachusetts Amherst
+      year: 2017-2023
+    - title: Bachelor of Technology in Electrical Engineering
+      institution: Indian Institute of Technology (IIT), Mandi
+      year: 2010-2014
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Lead AI Scientist
+      institution: Optum AI
+      year: Nov 2025 – *
+    - title: AI Research Scientist
+      institution: Pythia Labs Inc., A Generative AI + BioTech Startup
+      year: 2023 – 06/2025
+    - title: Research Engineer
+      institution: TCS Innovation Labs
+      year: 2014-2017
+
+- title: Internships
+  type: time_table
+  contents:
+    - title: Research Scientist Intern
+      institution: Etsy Inc.
+      year: 06/2022 – 08/2022
+    - title: Research Scientist Intern
+      institution: Allen Institute for AI (AI2)
+      year: 06/2020 – 08/2020
+    - title: Research Scientist Intern
+      institution: Amazon Alexa
+      year: 05/2018 – 08/2018
+
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: Programming Languages
+      items:
+        - Python, C/C++, Matlab and R
+    - title: ML Frameworks
+      items:
+        - PyTorch, Pytorch-Lightning, Tensorflow, Keras, OpenCV, Pandas, Numpy and Scikit-learn
+    - title: Generative AI Tools
+      items:
+        - Hugging Face, PEFT, vLLM, LangChain, and TensorRT
+    - title: Miscellaneous
+      items:
+        - Ray, Jupyter Notebook, Colab, Git, AWS, GCP and Visual Studio
+
+- title: Awards and Achievements
+  type: time_table
+  contents:
+    - year: 2023
+      items:
+        - College's Dissertation Writing Fellowship (among two students in UMass CICS)
+    - year: 2022
+      items:
+        - Top Reviewer Recognition, AISTATS conference
+    - year: 2021
+      items:
+        - Data Science Common Good Fellowship (among ten students in UMass CICS)
+    - year: 2017
+      items:
+        - Outstanding Inventive Spirit Award for filing multiple patents, TCS Research, India
+    - year: 2013
+      items:
+        - Excellent Academic Performance Award (1 of 40) on IIT Mandi Foundation Day
+    - year: 2012
+      items:
+        - Best Design Project, Design Practicum course, IIT Mandi
+        - Summer Research Fellowship, Indian Academy of Sciences
+    - year: 2011-2014
+      items:
+        - Contribution and Support Award, Dakshana Foundation
+        - Government Fellowship for outstanding academic performance
+    - year: 2010
+      items:
+        - Secured top 1% among 425,000 in IIT-JEE
+        - Secured top 0.5% among 1,000,000 in AIEEE
+    - year: 2008
+      items:
+        - Scholarship, Dakshana Foundation (40 students selected from 660 schools nationwide)
+
+- title: Service
+  type: nested_list
+  contents:
+    - title: ML Conferences and Journals
+      items:
+        - TMLR, NeurIPS-2023, NeurIPS-2022, ICML-2024, ICML-2023, AISTATS-2025, AISTATS-2023, AISTATS-2022, ICLR-2025, ICLR-2022
+    - title: Natural Language Processing
+      items:
+        - ACL 2023, ACL 2021, ACL Rolling Review 2021-2022, EMNLP 2021, NAACL 2021
