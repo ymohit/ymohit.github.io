@@ -37,26 +37,26 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-the-psychology-of-a-scientist",
+        },{id: "post-do-llms-truly-understand-the-world-more-importantly-do-they-need-to",
         
-          title: "The Psychology of a Scientist",
+          title: "Do LLMs truly understand the world? More importantly, do they need to?",
         
-        description: "Exploring the mental frameworks and motivations that drive scientific work",
+        description: "Compression and imitation ≠ understanding. Understanding ≠ usefulness.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/psychology-of-a-scientist/";
+            window.location.href = "/blog/2026/llm_understanding/";
           
         },
-      },{id: "post-the-goal-of-science",
+      },{id: "post-is-doing-science-all-about-precise-thinking",
         
-          title: "The Goal of Science",
+          title: "Is doing science all about precise thinking?",
         
-        description: "Reflections on what drives scientific inquiry and discovery",
+        description: "Exploring why rigorous thinking alone often kills breakthroughs before they start.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/goal-of-science/";
+            window.location.href = "/blog/2025/science-thinking/";
           
         },
       },{id: "news-successfully-defended-my-phd-thesis-excited-to-join-pythia-labs-to-work-on-generative-ai-for-protein-design",
@@ -76,52 +76,7 @@ ninja.data = [{
             },},{id: "news-joined-optum-ai-as-lead-ai-scientist-building-ai-systems-that-simplify-healthcare-complexity",
           title: 'Joined Optum AI as Lead AI Scientist 🎉! Building AI systems that simplify...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
-            },},{
+          section: "News",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
